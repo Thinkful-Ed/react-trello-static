@@ -2,8 +2,6 @@ import React from 'react';
 
 import Card from './card';
 
-import './list.css';
-
 export default function List() {
     return (
         <div>
