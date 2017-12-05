@@ -8,11 +8,17 @@ export default function Board() {
     return (
         <div className="board">
             <h2>Example board</h2>
-            <div className="lists">
-                <List />
-                <List />
-                <List />
-            </div>
+            <ul className="lists">
+                <li className="list-wrapper">
+                  <List />
+                </li>
+                <li className="list-wrapper">
+                  <List />
+                </li>
+                <li className="list-wrapper">
+                  <List />
+                </li>
+            </ul>
         </div>
     );
 }
