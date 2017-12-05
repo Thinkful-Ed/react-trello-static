@@ -1,4 +1,5 @@
-.list {
+/* 
+.list-wrapper {
     background: #E0E0E0;
     margin: 0 10px;
     padding: 8px;
@@ -6,10 +7,11 @@
     border-radius: 4px;
 }
 
-.list:first-child {
+.list-wrapper:first-child {
     margin-left: 0;
 }
 
-.list:last-child {
+.list-wrapper:last-child {
     margin-right: 0;
 }
+ */
